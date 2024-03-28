@@ -1,4 +1,4 @@
-const PageWidthWrapper = ({ children }) => {
-  return <div className="container">{children}</div>;
+const PageWrapper = ({ children }) => {
+  return <div className="container flex flex-col pt-[150px]">{children}</div>;
 };
-export default PageWidthWrapper;
+export default PageWrapper;

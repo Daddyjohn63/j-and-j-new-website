@@ -1,14 +1,9 @@
-const ProjectPageSingle = () => {
+import PortfolioComp from '@/components/PortfolioComp';
+
+export default function PortfolioPage() {
   return (
     <>
-      <span className="font-bold text-4xl">Home</span>
-      <div className="border-dashed border border-zinc-500 w-full h-12 rounded-lg"></div>
-      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
-      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
-      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
-      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
-      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
+      <PortfolioComp />
     </>
   );
-};
-export default ProjectPageSingle;
+}

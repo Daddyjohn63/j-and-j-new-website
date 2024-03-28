@@ -12,6 +12,13 @@
   color: black;
 }
 
+.title-section {
+  background: linear-gradient(rgba(4, 23, 46, 0.8), rgba(4, 23, 46, 0.8)),
+    url(/assets/images/home/footer-bg.jpg) no-repeat left center;
+  background-size: cover;
+  padding: 110px 30px;
+}
+
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
